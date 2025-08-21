@@ -1,27 +1,24 @@
-name: 🐍 Generate Snake
+name: Generate Snake
 
 on:
-  schedule:
-    - cron: "0 0 * * *"   # يولّد كل يوم
-  workflow_dispatch:       # تشغيل يدوي من تبويب Actions
-
-permissions:
-  contents: write          # مهم جدًا: يسمح بالـ push إلى الفرع output
+  schedule: # Runs at 00:00 UTC everyday
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate snake SVGs
+      - name: Generate Snake files
         uses: Platane/snk@v3
         with:
-          github_user_name: AhmedAbdelwaness   # ← بدّلها ليوزرنيمك
+          github_user_name: ahmed-abdelwaness
           outputs: |
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
 
-      - name: Publish to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Push to GitHub (output branch)
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
