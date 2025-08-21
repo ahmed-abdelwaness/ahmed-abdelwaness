@@ -18,7 +18,7 @@
 </p>
 
 ---
-### 🐍 Contribution Snake
+ 
 ### 🐍 Contribution Snake
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ahmed-abdelwaness/ahmed-abdelwaness/output/snake-dark.svg">
