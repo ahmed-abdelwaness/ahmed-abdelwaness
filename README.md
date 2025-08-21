@@ -18,12 +18,10 @@
 </p>
 
 ---
-
 ### 🐍 Contribution Snake
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/snake.svg">
-  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AhmedAbdelwaness/AhmedAbdelwaness/output/snake-dark.svg">
+  <img alt="snake" src="https://raw.githubusercontent.com/AhmedAbdelwaness/AhmedAbdelwaness/output/snake.svg">
 </picture>
-![Snake animation](https://github.com/AhmedAbdelwaness/AhmedAbdelwaness/blob/output/github-snake.svg)
+
 
